@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Rather Alternative</title>
+    <style>
+    body 
+	{
+		min-width: 357px;
+		overflow-x: hidden;
+		background-color: #4c67a1;
+		color: #000000;
+    }
+	#wrapper
+	{
+		background-color: #ffffff;
+		padding: 2px 10px 2px 10px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+	}
+	#filters
+	{
+		margin-bottom: 5px;
+		border-radius: 3px;
+	}
+	#save
+	{
+		background-color: #0060c0;
+		border-color: #0058b6;
+		color: #fff;
+		text-align: center;
+		vertical-align: middle;
+		border: 1px solid transparent;
+		border-radius: 4px;
+		padding: 2px 10px;
+		margin-bottom: 5px;
+	}
+	#license
+	{
+		color: white;
+		display: block;
+		font-size: 7pt;
+		text-align: center;
+		width: 100%;
+		margin: 5% auto;
+	}
+	#license a:link
+	{
+		color: white;
+		text-decoration: none;
+	}
+	#licensewrapper
+	{
+		display: block;
+		width: 100%;
+	}
+    </style>
+  </head>
+  <body>
+	<div id="wrapper">
+		<h1>Post Blocker</h1>
+		<p>Please put a comma, followed by an optional space after each filter. Case insensitive.</p> 
+			<textarea id="filters" style="width: 98%; height: 100%" rows="15"></textarea>
+			<br />
+			<input id="save" type="button" value="Save">
+	</div>
+	<section id="licensewrapper">
+		<div id="license">
+			<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Post Blocker</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Daylend deGrasse</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.
+		</div>
+	</section>
+	<script src="popup.js"></script>
+	<!-- Put the JS file AFTER your elements... -->
+  </body>
+</html>
+
